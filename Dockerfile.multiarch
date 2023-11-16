@@ -13,6 +13,6 @@ ENV GODEBUG=netdns=go
 # copy certs from build image
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 # copy cli binary
-COPY --from=build /src/release/plugin-extended-env /bin/
+COPY --from=build /src/release/plugin-extend-env /bin/
 
-ENTRYPOINT ["/bin/plugin-extended-env"]
+ENTRYPOINT ["/bin/plugin-extend-env"]

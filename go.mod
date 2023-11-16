@@ -1,4 +1,4 @@
-module github.com/woodpecker-ci/plugin-extended-env
+module github.com/woodpecker-ci/plugin-extend-env
 
 go 1.21.2
 
