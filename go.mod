@@ -4,7 +4,6 @@ go 1.21.2
 
 require (
 	codeberg.org/woodpecker-plugins/go-plugin v0.2.0
-	github.com/Masterminds/semver v1.5.0
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/joho/godotenv v1.4.0
 )
