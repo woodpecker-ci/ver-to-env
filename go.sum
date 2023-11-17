@@ -1,5 +1,7 @@
 codeberg.org/woodpecker-plugins/go-plugin v0.2.0 h1:gKcA22RIFX/bhGDnjsPuzZm3foLANJife5dusNzeGEQ=
 codeberg.org/woodpecker-plugins/go-plugin v0.2.0/go.mod h1:FlrDiY0/AvlJwlArOqTy6vui038A/KulkHHf6o7usfE=
+github.com/Masterminds/semver v1.5.0 h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww=
+github.com/Masterminds/semver v1.5.0/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
 github.com/Masterminds/semver/v3 v3.2.1 h1:RN9w6+7QoMeJVGyfmbcgs28Br8cvmnucEXnY0rYXWg0=
 github.com/Masterminds/semver/v3 v3.2.1/go.mod h1:qvl/7zhW3nngYb5+80sSMF+FG2BjYrf8m9wsX0PNOMQ=
 github.com/coreos/go-systemd/v22 v22.3.3-0.20220203105225-a9a7ef127534/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
