@@ -2,9 +2,12 @@ package main
 
 import (
 	"context"
+	"errors"
+	"os"
 	"strconv"
 
 	"codeberg.org/woodpecker-plugins/go-plugin"
+	"github.com/joho/godotenv"
 	"github.com/Masterminds/semver/v3"
 )
 
@@ -16,15 +19,14 @@ type Plugin struct {
 type EnvDataMap map[string]string
 
 func (p *Plugin) execute(ctx context.Context) error {
-	var env EnvDataMap
-	env, err := loadCurEnv()
-	if err != nil {
-		return err
-	}
-
 	tag := p.Metadata.Curr.Tag
 	if tag == "" {
 		return nil
+	}
+
+	env, err := godotenv.Read()
+	if err != nil && !errors.Is(err, os.ErrNotExist) {
+		return err
 	}
 
 	v, err := semver.NewVersion(tag)
@@ -42,5 +44,5 @@ func (p *Plugin) execute(ctx context.Context) error {
 		}
 	}
 
-	return writeEnv(env)
+	return godotenv.Write(env, ".env")
 }
