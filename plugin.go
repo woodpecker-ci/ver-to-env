@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"codeberg.org/woodpecker-plugins/go-plugin"
-	"github.com/joho/godotenv"
 	"github.com/Masterminds/semver/v3"
+	"github.com/joho/godotenv"
 )
 
 type Plugin struct {
