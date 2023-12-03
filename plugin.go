@@ -15,7 +15,7 @@ type Plugin struct {
 	*plugin.Plugin
 }
 
-func (p *Plugin) execute(ctx context.Context) error {
+func (p *Plugin) execute(_ context.Context) error {
 	tag := p.Metadata.Curr.Tag
 	if tag == "" {
 		return nil
