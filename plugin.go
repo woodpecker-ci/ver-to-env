@@ -15,9 +15,6 @@ type Plugin struct {
 	*plugin.Plugin
 }
 
-// type alias which can hold environment vars and its data.
-type EnvDataMap map[string]string
-
 func (p *Plugin) execute(ctx context.Context) error {
 	tag := p.Metadata.Curr.Tag
 	if tag == "" {
