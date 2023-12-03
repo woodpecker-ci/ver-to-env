@@ -17,6 +17,7 @@
 
 ### Misc
 
+- Do not run `release` on PRs [[#9](https://github.com/woodpecker-ci/plugin-extend-env/pull/9)]
 - Configure Renovate [[#1](https://github.com/woodpecker-ci/plugin-extend-env/pull/1)]
 - Configure Renovate [[#1](https://github.com/woodpecker-ci/plugin-extend-env/pull/1)]
 - Configure Renovate [[#1](https://github.com/woodpecker-ci/plugin-extend-env/pull/1)]
