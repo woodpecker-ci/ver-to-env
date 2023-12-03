@@ -8,6 +8,7 @@
 
 ### 📈 Enhancement
 
+- Add pre-commit and linters [[#10](https://github.com/woodpecker-ci/plugin-extend-env/pull/10)]
 - Refactor plugin [[#8](https://github.com/woodpecker-ci/plugin-extend-env/pull/8)]
 
 ### 🐛 Bug Fixes
