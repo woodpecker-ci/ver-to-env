@@ -31,7 +31,7 @@ func (p *Plugin) execute(ctx context.Context) error {
 	if err != nil {
 		env["CI_COMMIT_TAG_IS_SEMVER"] = "false"
 	} else {
-		env["CI_COMMIT_TAG_Is_SEMVER"] = "true"
+		env["CI_COMMIT_TAG_IS_SEMVER"] = "true"
 		env["CI_COMMIT_TAG_SEMVER"] = v.String()
 		env["CI_COMMIT_TAG_SEMVER_MAJOR"] = strconv.FormatUint(v.Major(), 10)
 		env["CI_COMMIT_TAG_SEMVER_MINOR"] = strconv.FormatUint(v.Minor(), 10)
