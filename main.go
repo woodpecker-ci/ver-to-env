@@ -7,8 +7,8 @@ import (
 func main() {
 	p := &Plugin{}
 	p.Plugin = plugin.New(plugin.Options{
-		Name:        "var-to-env",
-		Description: "Export semver variables to an env file",
+		Name:        "extend-env",
+		Description: "Extend .env file with additional variables like semver",
 		Version:     "v0.0.1",
 		Execute:     p.execute,
 	})
