@@ -1,5 +1,10 @@
 depends_on: [test]
 
+when:
+  - event: tag
+  - event: push
+    branch: ${CI_REPO_DEFAULT_BRANCH}
+
 variables:
   - &golang "golang:1.21"
 
