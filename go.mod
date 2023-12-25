@@ -1,6 +1,6 @@
 module github.com/woodpecker-ci/plugin-extend-env
 
-go 1.21.5
+go 1.21
 
 require (
 	codeberg.org/woodpecker-plugins/go-plugin v0.3.0
