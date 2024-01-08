@@ -1,10 +1,10 @@
 # Changelog
 
-## [0.1.0](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.0) - 2024-01-01
+## [0.1.0](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.0) - 2024-01-08
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@pre-commit-ci[bot], @qwerty287, @renovate[bot], @anbraten
+@renovate[bot], @pre-commit-ci[bot], @qwerty287, @anbraten
 
 ### 📈 Enhancement
 
@@ -18,6 +18,7 @@
 
 ### Misc
 
+- Update woodpeckerci/plugin-docker-buildx Docker tag to v2.3.0 [[#18](https://github.com/woodpecker-ci/plugin-extend-env/pull/18)]
 - [pre-commit.ci] pre-commit autoupdate [[#17](https://github.com/woodpecker-ci/plugin-extend-env/pull/17)]
 - fix pre-commit [[#16](https://github.com/woodpecker-ci/plugin-extend-env/pull/16)]
 - Update golang deps non-major [[#14](https://github.com/woodpecker-ci/plugin-extend-env/pull/14)]
