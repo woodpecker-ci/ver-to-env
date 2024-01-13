@@ -1,10 +1,14 @@
 # Changelog
 
-## [0.1.0](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.0) - 2024-01-08
+## [0.1.0](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.0) - 2024-01-13
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@renovate[bot], @pre-commit-ci[bot], @qwerty287, @anbraten
+@qwerty287, @renovate[bot], @pre-commit-ci[bot], @anbraten
+
+### 📚 Documentation
+
+- Remove icon [[#19](https://github.com/woodpecker-ci/plugin-extend-env/pull/19)]
 
 ### 📈 Enhancement
 
