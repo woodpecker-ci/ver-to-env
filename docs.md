@@ -1,6 +1,6 @@
 ---
 name: Extend env plugin
-authors: Woodpecker Authors
+author: Woodpecker Authors
 description: Extend your .env file with additional variables like semver information.
 tags: [env, semver]
 containerImage: woodpeckerci/plugin-extend-env
