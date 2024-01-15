@@ -8,20 +8,19 @@ when:
 
 steps:
   lint:
-    group: test
     image: *golang
     commands:
       - make vet
       - make formatcheck
 
   test:
-    group: test
     image: *golang
     commands:
       - make test
 
   build:
     image: woodpeckerci/plugin-docker-buildx:2.3.0
+    depends_on: [lint, test]
     settings:
       dockerfile: Dockerfile.multiarch
       dry_run: true
