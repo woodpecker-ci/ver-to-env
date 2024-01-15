@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-01-15
+
+### ❤️ Thanks to all contributors! ❤️
+
+@qwerty287
+
+### Misc
+
+- Update pre-commit and use `depends_on` [[#21](https://github.com/woodpecker-ci/plugin-extend-env/pull/21)]
+
 ## [0.1.0](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.0) - 2024-01-14
 
 ### ❤️ Thanks to all contributors! ❤️
