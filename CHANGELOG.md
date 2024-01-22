@@ -1,13 +1,14 @@
 # Changelog
 
-## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-01-15
+## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-01-22
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@qwerty287
+@renovate[bot], @qwerty287
 
 ### Misc
 
+- Update woodpeckerci/plugin-docker-buildx Docker tag to v3 [[#23](https://github.com/woodpecker-ci/plugin-extend-env/pull/23)]
 - Update pre-commit and use `depends_on` [[#21](https://github.com/woodpecker-ci/plugin-extend-env/pull/21)]
 
 ## [0.1.0](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.0) - 2024-01-14
