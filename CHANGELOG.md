@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-02-06
+## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-02-07
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,7 @@
 
 ### Misc
 
+- [pre-commit.ci] pre-commit autoupdate [[#26](https://github.com/woodpecker-ci/plugin-extend-env/pull/26)]
 - Update woodpeckerci/plugin-docker-buildx Docker tag to v3.0.1 [[#27](https://github.com/woodpecker-ci/plugin-extend-env/pull/27)]
 - Update module codeberg.org/woodpecker-plugins/go-plugin to v0.3.1 [[#25](https://github.com/woodpecker-ci/plugin-extend-env/pull/25)]
 - Update woodpeckerci/plugin-ready-release-go Docker tag to v1.1.0 [[#24](https://github.com/woodpecker-ci/plugin-extend-env/pull/24)]
