@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Update pre-commit hook golangci/golangci-lint to v1.57.2 [[#33](https://github.com/woodpecker-ci/plugin-extend-env/pull/33)]
 - Update woodpeckerci/plugin-docker-buildx Docker tag to v3.2.1 [[#34](https://github.com/woodpecker-ci/plugin-extend-env/pull/34)]
 - Update pre-commit hook golangci/golangci-lint to v1.57.1 [[#32](https://github.com/woodpecker-ci/plugin-extend-env/pull/32)]
 - Update woodpeckerci/plugin-docker-buildx Docker tag to v3.2.0 [[#31](https://github.com/woodpecker-ci/plugin-extend-env/pull/31)]
