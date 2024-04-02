@@ -3,7 +3,7 @@ module github.com/woodpecker-ci/plugin-extend-env
 go 1.21
 
 require (
-	codeberg.org/woodpecker-plugins/go-plugin v0.4.0
+	codeberg.org/woodpecker-plugins/go-plugin v0.4.1
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/joho/godotenv v1.5.1
 )
