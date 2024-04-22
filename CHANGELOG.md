@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-04-16
+## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-04-22
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Update woodpeckerci/plugin-ready-release-go Docker tag to v1.1.1 [[#39](https://github.com/woodpecker-ci/plugin-extend-env/pull/39)]
 - Exclude changelog from mdlint [[#38](https://github.com/woodpecker-ci/plugin-extend-env/pull/38)]
 - Update pre-commit hook pre-commit/pre-commit-hooks to v4.6.0 [[#37](https://github.com/woodpecker-ci/plugin-extend-env/pull/37)]
 - Update module codeberg.org/woodpecker-plugins/go-plugin to v0.4.1 [[#36](https://github.com/woodpecker-ci/plugin-extend-env/pull/36)]
