@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-05-05
+## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-05-11
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Update woodpeckerci/plugin-docker-buildx Docker tag to v4 [[#42](https://github.com/woodpecker-ci/plugin-extend-env/pull/42)]
 - Update pre-commit non-major [[#40](https://github.com/woodpecker-ci/plugin-extend-env/pull/40)]
 - Update woodpeckerci/plugin-ready-release-go Docker tag to v1.1.1 [[#39](https://github.com/woodpecker-ci/plugin-extend-env/pull/39)]
 - Exclude changelog from mdlint [[#38](https://github.com/woodpecker-ci/plugin-extend-env/pull/38)]
