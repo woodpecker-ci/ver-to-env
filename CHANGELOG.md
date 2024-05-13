@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Ignore golangci-lint in pre-commit.ci [[#44](https://github.com/woodpecker-ci/plugin-extend-env/pull/44)]
 - Update pre-commit hook golangci/golangci-lint to v1.58.1 [[#43](https://github.com/woodpecker-ci/plugin-extend-env/pull/43)]
 - Update woodpeckerci/plugin-docker-buildx Docker tag to v4 [[#42](https://github.com/woodpecker-ci/plugin-extend-env/pull/42)]
 - Update pre-commit non-major [[#40](https://github.com/woodpecker-ci/plugin-extend-env/pull/40)]
