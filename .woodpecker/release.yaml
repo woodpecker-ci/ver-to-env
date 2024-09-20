@@ -9,6 +9,11 @@ variables:
   - &golang 'golang:1.21'
 
 steps:
+  vendor:
+    image: *golang
+    commands:
+      - go mod vendor
+
   publish-next:
     image: woodpeckerci/plugin-docker-buildx:4.2.0
     settings:
