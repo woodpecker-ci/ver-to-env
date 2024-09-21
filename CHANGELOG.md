@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.2) - 2024-09-21
+
+### Misc
+
+- Update golang Docker tag to v1.23 [[#64](https://github.com/woodpecker-ci/plugin-extend-env/pull/64)]
+
 ## [0.1.1](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.1) - 2024-09-20
 
 ### ❤️ Thanks to all contributors! ❤️
