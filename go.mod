@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	codeberg.org/woodpecker-plugins/go-plugin v0.7.0
-	github.com/Masterminds/semver/v3 v3.3.0
+	github.com/Masterminds/semver/v3 v3.3.1
 	github.com/joho/godotenv v1.5.1
 )
 
