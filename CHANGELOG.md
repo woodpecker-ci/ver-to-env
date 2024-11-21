@@ -1,9 +1,10 @@
 # Changelog
 
-## [0.1.2](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.2) - 2024-11-14
+## [0.1.2](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.2) - 2024-11-21
 
 ### 📦️ Dependency
 
+- Update module github.com/Masterminds/semver/v3 to v3.3.1 [[#75](https://github.com/woodpecker-ci/plugin-extend-env/pull/75)]
 - Update module codeberg.org/woodpecker-plugins/go-plugin to v0.7.0 [[#74](https://github.com/woodpecker-ci/plugin-extend-env/pull/74)]
 - Update pre-commit hook golangci/golangci-lint to v1.62.0 [[#73](https://github.com/woodpecker-ci/plugin-extend-env/pull/73)]
 - Update woodpeckerci/plugin-ready-release-go Docker tag to v2.1.1 [[#72](https://github.com/woodpecker-ci/plugin-extend-env/pull/72)]
