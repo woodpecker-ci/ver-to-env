@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- Update woodpeckerci/plugin-docker-buildx Docker tag to v5.2.0 [[#88](https://github.com/woodpecker-ci/plugin-extend-env/pull/88)]
 - Update pre-commit hook igorshubovych/markdownlint-cli to v0.44.0 [[#86](https://github.com/woodpecker-ci/plugin-extend-env/pull/86)]
 - Update woodpeckerci/plugin-ready-release-go Docker tag to v3.1.3 [[#85](https://github.com/woodpecker-ci/plugin-extend-env/pull/85)]
 
