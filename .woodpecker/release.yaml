@@ -15,7 +15,7 @@ steps:
       - go mod vendor
 
   publish-next:
-    image: woodpeckerci/plugin-docker-buildx:5.1.0
+    image: woodpeckerci/plugin-docker-buildx:5.2.0
     settings:
       dockerfile: Dockerfile.multiarch
       repo: woodpeckerci/plugin-extend-env
@@ -29,7 +29,7 @@ steps:
       event: push
 
   publish-tag:
-    image: woodpeckerci/plugin-docker-buildx:5.1.0
+    image: woodpeckerci/plugin-docker-buildx:5.2.0
     settings:
       dockerfile: Dockerfile.multiarch
       repo: woodpeckerci/plugin-extend-env
