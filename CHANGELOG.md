@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.3) - 2025-01-25
+
+### 📦️ Dependency
+
+- Update pre-commit hook igorshubovych/markdownlint-cli to v0.44.0 [[#86](https://github.com/woodpecker-ci/plugin-extend-env/pull/86)]
+- Update woodpeckerci/plugin-ready-release-go Docker tag to v3.1.3 [[#85](https://github.com/woodpecker-ci/plugin-extend-env/pull/85)]
+
 ## [0.1.2](https://github.com/woodpecker-ci/plugin-extend-env/releases/tag/0.1.2) - 2025-01-04
 
 ### 📦️ Dependency
